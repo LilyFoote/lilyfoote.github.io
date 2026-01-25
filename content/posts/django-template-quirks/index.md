@@ -8,7 +8,7 @@ tags = ["django", "templates"]
 
 ## Django Rusty Templates
 
-Since September 2024, I have been building a reimplementation of Django's templating language in Rust, called [Django Rusty Templates](https://github.com/LilyFoote/django-rusty-templates). During this process, I have discovered several weird edge-cases and bugs.
+Since September 2024, I have been building a reimplementation of Django's templating language in Rust, called [Django Rusty Templates](https://github.com/LilyFirefly/django-rusty-templates). During this process, I have discovered several weird edge-cases and bugs.
 
 ### Scientific notation
 

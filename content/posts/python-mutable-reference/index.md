@@ -8,7 +8,7 @@ tags = ["django", "templates", "rust", "python", "pyo3"]
 
 ## Background
 
-As part of [my ongoing project](https://github.com/LilyAcorn/django-rusty-templates) to reimplement Django's templating language in Rust, I have been adding support for [custom template tags](https://docs.djangoproject.com/en/5.2/howto/custom-template-tags/#writing-custom-template-tags).
+As part of [my ongoing project](https://github.com/LilyFirefly/django-rusty-templates) to reimplement Django's templating language in Rust, I have been adding support for [custom template tags](https://docs.djangoproject.com/en/5.2/howto/custom-template-tags/#writing-custom-template-tags).
 
 ### Simple tags
 The simplest custom tag will look something like:
@@ -654,4 +654,4 @@ impl Render for CustomTag {
 
 The inability of PyO3 to expose Rust structs that use lifetimes initially seems limiting, but PyO3 and Rust provide powerful tools to work around these limitations. [`std::mem::take`](https://doc.rust-lang.org/std/mem/fn.take.html), [`std::mem::replace`](https://doc.rust-lang.org/std/mem/fn.replace.html) and [`std::mem::swap`](https://doc.rust-lang.org/std/mem/fn.swap.html) allow for advanced manipulation of mutable references and owned values and [`Arc`](https://doc.rust-lang.org/std/sync/struct.Arc.html) and [`Mutex`](https://doc.rust-lang.org/std/sync/struct.Mutex.html) are extremely useful for exposing shared mutable data to Python. PyO3's [`MutexExt`](https://docs.rs/pyo3/latest/pyo3/sync/trait.MutexExt.html) is essential for working with mutexes and Python together.
 
-You can find the [full code implementing a simple custom tag here](https://github.com/LilyAcorn/django-rusty-templates/compare/3a309aa...9cbcfc6), with the extra details I omitted here for brevity and clarity.
+You can find the [full code implementing a simple custom tag here](https://github.com/LilyFirefly/django-rusty-templates/compare/3a309aa...9cbcfc6), with the extra details I omitted here for brevity and clarity.

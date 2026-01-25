@@ -8,7 +8,7 @@ tags = ["django", "templates", "python"]
 
 ## Django Rusty Templates
 
-Since September 2024, I have been building a reimplementation of Django's templating language in Rust, called [Django Rusty Templates](https://github.com/LilyFoote/django-rusty-templates). During this process, I have discovered several weird edge-cases and bugs, [some of which I've talked about before](/posts/django-template-quirks/).
+Since September 2024, I have been building a reimplementation of Django's templating language in Rust, called [Django Rusty Templates](https://github.com/LilyFirefly/django-rusty-templates). During this process, I have discovered several weird edge-cases and bugs, [some of which I've talked about before](/posts/django-template-quirks/).
 
 ### Centring strings
 
@@ -29,7 +29,7 @@ It is possible to get more intuitive behaviour by using f-strings (or older form
 
 But this isn't available in the Django template language without defining a custom filter or moving the centring logic out of the template.
 
-Thanks to Moshe Nahmias for working on [implementing the `center` filter in Django Rusty Templates](https://github.com/LilyAcorn/django-rusty-templates/pull/91), and finding this quirk.
+Thanks to Moshe Nahmias for working on [implementing the `center` filter in Django Rusty Templates](https://github.com/LilyFirefly/django-rusty-templates/pull/91), and finding this quirk.
 
 ### Update
 
