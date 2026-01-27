@@ -122,4 +122,4 @@ Finally, I want to thank Pravin for the hard work he's put into implementing the
 
 ## Update
 
-I have opened issues on the Django new-feature tracker for [the `lorem`](https://github.com/django/new-features/issues/115) bug and [the variable bug](https://github.com/django/new-features/issues/116).
+I have opened issues on the Django new-feature tracker for [the `now`](https://github.com/django/new-features/issues/115) bug and [the variable bug](https://github.com/django/new-features/issues/116).
