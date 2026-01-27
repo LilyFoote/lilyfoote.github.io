@@ -119,3 +119,7 @@ I also think that the `{% now %}` tag should be updated to support a variable to
 While these quirks and bugs vary in seriousness, I continue to think the Django template language is very well designed overall, with behaviours like these rare to run into in practice.
 
 Finally, I want to thank Pravin for the hard work he's put into implementing the `now` and `lorem` template tags in Django Rusty Templates.
+
+## Update
+
+I have opened issues on the Django new-feature tracker for [the `lorem`](https://github.com/django/new-features/issues/115) bug and [the variable bug](https://github.com/django/new-features/issues/116).
